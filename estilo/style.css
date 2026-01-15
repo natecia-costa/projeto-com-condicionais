@@ -1,0 +1,26 @@
+body {
+    font: normal 15pt Arial;
+    background-color: gray;
+}
+h1 {
+     text-align: center;
+     color: white;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+}
+section {
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+}
+div {
+    text-align: center;
+    padding: 8px;
+}
+img {
+    border-radius: 50%;
+}
