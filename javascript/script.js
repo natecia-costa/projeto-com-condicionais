@@ -1,8 +1,8 @@
-var res = document.getElementById('res')
-var img = document.getElementById('imagem')
-var horario = new Date()
-var hora = horario.getHours() 
-var minuto = horario.getMinutes()
+let res = document.getElementById('res')
+let img = document.getElementById('imagem')
+let horario = new Date()
+let hora = horario.getHours() 
+let minuto = horario.getMinutes()
 
 res.innerHTML = `<p>Agora são ${hora}:${minuto}</p>`
 
